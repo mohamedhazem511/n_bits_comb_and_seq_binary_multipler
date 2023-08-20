@@ -1,0 +1,17 @@
+Time is now 40 ns. A = 0111, B = 0011, M = 0, Expected M OUTPUT = 0001, Expected R OUTPUT = 0101, Actual M  = 0001, Actual R = 0101. Test passed.
+Time is now 60 ns. A = 0111, B = 0111, M = 1, Expected M OUTPUT = 0001, Expected R OUTPUT = 0000, Actual M  = 0001, Actual R = 0000. Test passed.
+Time is now 80 ns. A = 1001, B = 0011, M = 0, Expected M OUTPUT = 1110, Expected R OUTPUT = 1011, Actual M  = 1110, Actual R = 1011. Test passed.
+Time is now 100 ns. A = 0100, B = 0000, M = 0, Expected M OUTPUT = 0000, Expected R OUTPUT = 0000, Actual M  = 0000, Actual R = 0000. Test passed.
+Time is now 120 ns. A = 0111, B = 0010, M = 1, Expected M OUTPUT = 0011, Expected R OUTPUT = 0001, Actual M  = 0011, Actual R = 0001. Test passed.
+Time is now 140 ns. A = 1101, B = 1101, M = 0, Expected M OUTPUT = 0000, Expected R OUTPUT = 1001, Actual M  = 0000, Actual R = 1001. Test passed.
+Time is now 160 ns. A = 1001, B = 1110, M = 1, Expected M OUTPUT = 0011, Expected R OUTPUT = 1111, Actual M  = 0011, Actual R = 1111. Test passed.
+Time is now 180 ns. A = 0101, B = 0011, M = 0, Expected M OUTPUT = 0000, Expected R OUTPUT = 1111, Actual M  = 0000, Actual R = 1111. Test passed.
+Time is now 200 ns. A = 1001, B = 0011, M = 1, Expected M OUTPUT = 1110, Expected R OUTPUT = 1111, Actual M  = 1110, Actual R = 1111. Test passed.
+Time is now 220 ns. A = 1111, B = 0000, M = 0, Expected M OUTPUT = 0000, Expected R OUTPUT = 0000, Actual M  = 0000, Actual R = 0000. Test passed.
+Time is now 240 ns. A = 0001, B = 1011, M = 1, Expected M OUTPUT = 0000, Expected R OUTPUT = 0001, Actual M  = 0000, Actual R = 0001. Test passed.
+Time is now 260 ns. A = 1111, B = 0001, M = 0, Expected M OUTPUT = 1111, Expected R OUTPUT = 1111, Actual M  = 1111, Actual R = 1111. Test passed.
+Time is now 280 ns. A = 0111, B = 0010, M = 1, Expected M OUTPUT = 0011, Expected R OUTPUT = 0001, Actual M  = 0011, Actual R = 0001. Test passed.
+Time is now 300 ns. A = 0001, B = 0011, M = 0, Expected M OUTPUT = 0000, Expected R OUTPUT = 0011, Actual M  = 0000, Actual R = 0011. Test passed.
+Time is now 320 ns. A = 0001, B = 1011, M = 1, Expected M OUTPUT = 0000, Expected R OUTPUT = 0001, Actual M  = 0000, Actual R = 0001. Test passed.
+Time is now 340 ns. A = 0000, B = 0011, M = 0, Expected M OUTPUT = 0000, Expected R OUTPUT = 0000, Actual M  = 0000, Actual R = 0000. Test passed.
+Time is now 360 ns. A = 0111, B = 0000, M = 1, Expected M OUTPUT = 0001, Expected R OUTPUT = 0000, Actual M  = 0000, Actual R = 0000. Test failed!

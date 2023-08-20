@@ -1,0 +1,73 @@
+----------------------------------------------------------------- READ_FILE FOR SEQ ------------------------------------------------------------------
+0111 0011 0 5ns 0001 0101
+0111 0111 1 10ns 0001 0000
+1001 0011 0 5ns 1110 1011
+0100 0000 0 5ns 0000 0000
+0111 0010 1 10ns 0011 0001
+1101 1101 0 10ns 0000 1001
+1001 1110 1 10ns 0011 1111
+1001 0011 1 5ns 1110 1111
+0111 0010 1 5ns 0011 0001
+0110 0001 1 5ns 0110 0000
+0111 0000 1 5ns 0001 0000
+----------------------------------------------------------------- SEQUENTIAL MULTIPLY & DIVISION -----------------------------------------------------
+| Time is now 125 ns. A = 0111, B = 0011, M = 0, Expected M OUTPUT = 0001, Expected R OUTPUT = 0101, Actual M  = 0001, Actual R = 0101. Test passed. |
+| Time is now 235 ns. A = 0111, B = 0111, M = 1, Expected M OUTPUT = 0001, Expected R OUTPUT = 0000, Actual M  = 0001, Actual R = 0000. Test passed. |
+| Time is now 340 ns. A = 1001, B = 0011, M = 0, Expected M OUTPUT = 1110, Expected R OUTPUT = 1011, Actual M  = 1110, Actual R = 1011. Test passed. |
+| Time is now 445 ns. A = 0100, B = 0000, M = 0, Expected M OUTPUT = 0000, Expected R OUTPUT = 0000, Actual M  = 0000, Actual R = 0000. Test passed. |
+| Time is now 555 ns. A = 0111, B = 0010, M = 1, Expected M OUTPUT = 0011, Expected R OUTPUT = 0001, Actual M  = 0011, Actual R = 0001. Test passed. |
+| Time is now 665 ns. A = 1101, B = 1101, M = 0, Expected M OUTPUT = 0000, Expected R OUTPUT = 1001, Actual M  = 0000, Actual R = 1001. Test passed. |
+| Time is now 775 ns. A = 1001, B = 1110, M = 1, Expected M OUTPUT = 0011, Expected R OUTPUT = 1111, Actual M  = 0011, Actual R = 1111. Test passed. |
+| Time is now 880 ns. A = 1001, B = 0011, M = 1, Expected M OUTPUT = 1110, Expected R OUTPUT = 1111, Actual M  = 1110, Actual R = 1111. Test passed. |
+| Time is now 985 ns. A = 0111, B = 0010, M = 1, Expected M OUTPUT = 0011, Expected R OUTPUT = 0001, Actual M  = 0011, Actual R = 0001. Test passed. |
+| Time is now 1090 ns. A = 0110, B = 0001, M = 1, Expected M OUTPUT = 0110, Expected R OUTPUT = 0000, Actual M  = 0110, Actual R = 0000. Test passed.|
+| Time is now 1195 ns. A = 0111, B = 0000, M = 1, Expected M OUTPUT = 0001, Expected R OUTPUT = 0000, Actual M  = 0111, Actual R = 0000. Test failed!|
+------------------------------------------------------------------------------------------------------------------------------------------------------
+PERCENTAGE OF PASSED CASES : 90.9 % = 10/11 ......
+------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------- READ_FILE FOR COMB ------------------------------------------------------------------
+0111 0011 0 0001 0101
+0111 0111 1 0001 0000
+1001 0011 0 1110 1011
+0100 0000 0 0000 0000
+0111 0010 1 0011 0001
+1101 1101 0 0000 1001
+1001 1110 1 0011 1111
+0101 0011 0 0000 1111
+1001 0011 1 1110 1111
+1111 0000 0 0000 0000
+0001 1011 1 0000 0001
+1111 0001 0 1111 1111
+0111 0010 1 0011 0001
+0001 0011 0 0000 0011
+0001 1011 1 0000 0001
+0000 0011 0 0000 0000
+0111 0000 1 0001 0000
+----------------------------------------------------------------- COMBINATIONAL MULTIPLY & DIVISION -------------------------------------------------
+| Time is now 40 ns. A = 0111, B = 0011, M = 0, Expected M OUTPUT = 0001, Expected R OUTPUT = 0101, Actual M  = 0001, Actual R = 0101. Test passed. |
+| Time is now 60 ns. A = 0111, B = 0111, M = 1, Expected M OUTPUT = 0001, Expected R OUTPUT = 0000, Actual M  = 0001, Actual R = 0000. Test passed. |
+| Time is now 80 ns. A = 1001, B = 0011, M = 0, Expected M OUTPUT = 1110, Expected R OUTPUT = 1011, Actual M  = 1110, Actual R = 1011. Test passed. |
+| Time is now 100 ns. A = 0100, B = 0000, M = 0, Expected M OUTPUT = 0000, Expected R OUTPUT = 0000, Actual M  = 0000, Actual R = 0000. Test passed.|
+| Time is now 120 ns. A = 0111, B = 0010, M = 1, Expected M OUTPUT = 0011, Expected R OUTPUT = 0001, Actual M  = 0011, Actual R = 0001. Test passed.|
+| Time is now 140 ns. A = 1101, B = 1101, M = 0, Expected M OUTPUT = 0000, Expected R OUTPUT = 1001, Actual M  = 0000, Actual R = 1001. Test passed.|
+| Time is now 160 ns. A = 1001, B = 1110, M = 1, Expected M OUTPUT = 0011, Expected R OUTPUT = 1111, Actual M  = 0011, Actual R = 1111. Test passed.|
+| Time is now 180 ns. A = 0101, B = 0011, M = 0, Expected M OUTPUT = 0000, Expected R OUTPUT = 1111, Actual M  = 0000, Actual R = 1111. Test passed.|
+| Time is now 200 ns. A = 1001, B = 0011, M = 1, Expected M OUTPUT = 1110, Expected R OUTPUT = 1111, Actual M  = 1110, Actual R = 1111. Test passed.|
+| Time is now 220 ns. A = 1111, B = 0000, M = 0, Expected M OUTPUT = 0000, Expected R OUTPUT = 0000, Actual M  = 0000, Actual R = 0000. Test passed.|
+| Time is now 240 ns. A = 0001, B = 1011, M = 1, Expected M OUTPUT = 0000, Expected R OUTPUT = 0001, Actual M  = 0000, Actual R = 0001. Test passed.|
+| Time is now 260 ns. A = 1111, B = 0001, M = 0, Expected M OUTPUT = 1111, Expected R OUTPUT = 1111, Actual M  = 1111, Actual R = 1111. Test passed.|
+| Time is now 280 ns. A = 0111, B = 0010, M = 1, Expected M OUTPUT = 0011, Expected R OUTPUT = 0001, Actual M  = 0011, Actual R = 0001. Test passed.|
+| Time is now 300 ns. A = 0001, B = 0011, M = 0, Expected M OUTPUT = 0000, Expected R OUTPUT = 0011, Actual M  = 0000, Actual R = 0011. Test passed.|
+| Time is now 320 ns. A = 0001, B = 1011, M = 1, Expected M OUTPUT = 0000, Expected R OUTPUT = 0001, Actual M  = 0000, Actual R = 0001. Test passed.|
+| Time is now 340 ns. A = 0000, B = 0011, M = 0, Expected M OUTPUT = 0000, Expected R OUTPUT = 0000, Actual M  = 0000, Actual R = 0000. Test passed.|
+| Time is now 360 ns. A = 0111, B = 0000, M = 1, Expected M OUTPUT = 0001, Expected R OUTPUT = 0000, Actual M  = 0000, Actual R = 0000. Test failed!|
+------------------------------------------------------------------------------------------------------------------------------------------------------
+PERCENTAGE OF PASSED CASES : 94.11 % = 16/17 ......
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
